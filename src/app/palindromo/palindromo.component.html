@@ -1,0 +1,28 @@
+<div class="container mt-5 bg-light">
+  <div class="row">
+    <div class="">
+    </div>
+    <div class="col-md-4" style="margin: auto;">
+        <div class="input-group mb-3">
+            <input type="number" [(ngModel)]= "numero" class="form-control">
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-3" style="margin: auto;">
+        <button type="button" class="btn btn-success mb-2" (click)="Verificar()">Verificar</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class=""></div>
+    <div class="col-md-4"  style="margin: auto;">
+        <div class="input-group mb-3">
+            <input type="text" disabled [(ngModel)]= "resultado" class="form-control">
+        </div>
+    </div>
+  </div>
+
+
+</div>
